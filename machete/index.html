@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Барбершоп - MACHETE</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+            <div class="row nav">
+              <div class="col-md-2">
+                <a href="#">Барберы</a>
+              </div>
+              <div class="col-md-2">
+                <a href="#">Услуги</a>
+              </div>
+              <div class="col-md-4">
+                <a href="#"><img src="img/nav-logo.png" alt="Лого" width="50%"></a>
+              </div>
+              <div class="col-md-2">
+                <a href="#">Контакты</a>
+              </div>
+              <div class="col-md-2">
+                <a href="#">Отзывы</a>
+              </div>
+            </div>
+        </div>
+      </nav>
+      <div class="row main-logo text-center">
+        <div class="container">
+          <img src="img/logo-1.png" alt="" width="30%">
+        </div>
+      </div>
+      <div class="row eggs text-center">
+        <div class="container">
+          <div class="col-md-4">
+            <b>Быстро</b><br>
+            <img src="img/rhomb-header.png" alt=""><br>
+            <p>Мы делаем свою работу быстро! Два часа <br> пролетят незаметно и вы - счастливый <br> обладатель стильной стрижки!</p>            
+          </div>
+          <div class="col-md-4">
+            <b>Круто</b><br>
+            <img src="img/rhomb-header.png" alt=""><br>
+            <p>Забудьте, как вы стриглись раньше. <br> Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          </div>
+          <div class="col-md-4">
+            <b>Дорого</b><br>
+            <img src="img/rhomb-header.png" alt=""><br>
+            <p>Наши мастера - профессионалы своего дела и <br> не могут стоить дешево. К тому же, разве цена <br> не дает определенный статус?</p>
+          </div>
+         </div> 
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <h2>Стоимость популярных услуг</h2>
+          <div class="col-md-6 service-main">
+            <p>Мужская стрижка</p>
+            <p>Мужская стрижка машинкой</p>
+            <p>Бритье бороды</p>
+            <p>Моделирование бороды</p>
+            <p>Детская стрижка (до 16 лет)</p>
+            <p>Бритье головы</p>
+          </div>
+          <div class="col-md-6 service-price">
+            <p>20 BYN</p>
+            <p>10 BYN</p>
+            <p>15 BYN</p>
+            <p>15 BYN</p>
+            <p>15 BYN</p>
+            <p>15 BYN</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="all-service text-center">
+              <a href="#">Посмотреть все услуги</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="slider">
+      <div class="container">
+        <div class="row">
+          <div class="fotorama">
+            <img src="img/fr-1.jpg" alt="">
+            <img src="img/fr-2.jpg" alt="">
+            <img src="img/fr-3.jpg" alt="">
+            <img src="img/fr-4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 index-contacts">
+            <h3>Контактная информация</h3>
+            <p>БАРБЕРШОП «Machete»<br>
+              АДРЕС: г. Витебск, пр-т Фрунзе, д.14 <br> 
+              <a href="tel:+375292171865">+375 (29) 217-18-65</a></p><br>
+            <p>ВРЕМЯ РАБОТЫ: <br>
+              ПН — ПТ: С 10:00 ДО 22:00 <br> 
+              СБ — ВС: С 10:00 ДО 19:00</p><br>
+            <div class="row contacts-src">
+              <a href="#map">Как проехать</a>
+            </div>
+          </div>
+          <div class="col-md-6 index-sign">
+            <h3>Записаться</h3>
+            <p>Укажите имя и номер телефона и мы свяжемся <br> с вами для подтверждения брони</p>
+            <form action="sign-in">
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <button type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  </body>
+</html>

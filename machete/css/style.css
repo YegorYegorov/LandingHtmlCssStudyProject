@@ -1,0 +1,272 @@
+/*==============================FONTS=======================*/
+@font-face {
+    font-family: '2220';
+    src: url('fonts/2220.eot');
+    src: url('fonts/2220.eot') format('embedded-opentype'),
+         url('fonts/2220.woff2') format('woff2'),
+         url('fonts/2220.woff') format('woff'),
+         url('fonts/2220.ttf') format('truetype'),
+         url('fonts/2220.svg#2220') format('svg');
+}
+
+@font-face {
+    font-family: 'BERNIER Distressed';
+    src: url('fonts/BERNIERDistressed-Regular.eot');
+    src: url('fonts/BERNIERDistressed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BERNIERDistressed-Regular.woff2') format('woff2'),
+        url('fonts/BERNIERDistressed-Regular.woff') format('woff'),
+        url('fonts/BERNIERDistressed-Regular.ttf') format('truetype'),
+        url('fonts/BERNIERDistressed-Regular.svg#BERNIERDistressed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/*==============================BASIC=======================*/
+
+body {
+	background: url(../img/index-background.png) no-repeat top center/cover;
+	font-size: 10px;
+	font-family: '2220';
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: none;
+	color: #ffffff;}
+a:link {
+	text-decoration: none;
+	color: #ffffff;}
+a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+p {
+	color: #000;
+}
+
+/*==============================HEADER=======================*/
+
+header {
+	color: #ffffff;
+}
+
+
+header nav {
+	background: #000;
+	font-size: 2rem;
+	width: 100%
+}
+header a {
+ 	color: #ffffff;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	letter-spacing: 0.8rem;
+ }
+
+ header .nav {
+ 	padding-top: 2rem;
+ 	text-align: center;
+ 	height: 7rem;
+ }
+header .main-logo {
+	margin-top: 6rem;
+}
+
+header .eggs {
+	margin-top: 3rem;
+	font-size: 4rem;
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+	margin-bottom: 6rem;
+
+}
+
+header .eggs p {
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	line-height: 3rem;
+	padding-top: 1rem;
+	color: #ffffff;
+}
+
+
+
+/*==============================MAIN=======================*/
+
+section#main {
+	margin-bottom: 5rem;
+}
+
+
+
+section#main .container {
+	background-color: #faf7f4;
+	padding-bottom: 5rem;
+}
+
+section#main h2 {
+	font-family: 'BERNIER Distressed';
+	text-transform: uppercase;
+	font-size: 5rem;
+	text-align: center;
+	padding-top: 5rem;
+}
+
+section#main .service-main {
+	padding-left: 20rem;
+	font-size: 2.2rem;
+	padding-top: 5rem;
+}
+
+section#main .service-price {
+	padding-right: 20rem;
+	font-size: 2.2rem;
+	text-align: right;
+	padding-top: 5rem;
+}
+
+
+section#main .all-service {
+	margin-top: 2rem;
+}
+
+section#main .all-service a {
+	background-color: #000000;
+	border-radius: 1rem;
+	padding: 2rem;
+	text-align: center;
+	font-size: 2.2rem;
+	color: #faf7f4;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+}
+
+section#main .all-service a:hover {
+	background-color: #292828;
+}
+
+
+
+/*==============================SLIDER=======================*/
+
+section#slider {
+	-webkit-backface-visibility: 5rem;
+	-moz-backface-visibility: 5rem;
+	-ms-backface-visibility: 5rem;
+	backface-visibility: 5rem;
+	margin-bottom: 5rem;
+}
+
+
+
+/*==============================INFO=======================*/
+
+section#info {
+	margin-bottom: 5rem;
+}
+
+
+section#info .container {
+	background-color: #faf7f4;
+	padding-bottom: 5rem;
+}
+
+section#info h3 {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+section#info p {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+section#info a {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	letter-spacing: 0.2rem;
+	color: #000;
+}
+
+
+section#info .index-contacts {
+	padding-left: 9rem;
+	margin-top: 5rem;
+	padding-right: 6rem;
+}
+
+section#info .contacts-src {
+	margin-top: 1.6rem;
+	margin-left: 0rem;
+}
+
+
+section#info .contacts-src a {
+	background-color: #000000;
+	padding: 2rem;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #faf7f4;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+}
+
+section#info .index-sign {
+	padding-left: 9rem;
+	margin-top: 5rem;
+	padding-right: 6rem;
+}
+
+section#info .index-sign input {
+	padding: 1rem;
+	margin-bottom: 1.9rem;
+	font-size: 1.5rem;
+	border-color: #000;
+	color: #000;
+	text-transform: uppercase;
+}
+
+
+section#info .index-sign button {
+	background-color: #000000;
+	padding: 2rem;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #faf7f4;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	width: 70%;
+}
+
+
+
+
+
+/*==============================BASIC=======================*/
+
+
+
+
+
+
+
+/*==============================BASIC=======================*/
+
+
+
+
+
+
+
+
